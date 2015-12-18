@@ -9,28 +9,45 @@ body {
 	}
 
 title {
-	font-family: 'Allan', cursive;
-	font-weight: 400;
-	text-transform: uppercase;
+}
+
+header {
+	background-color: #FFED74;
+	border:1px black solid;
 }
 
 nav {
 width: 484px;
-margin-top: 30px;
+margin: 20px 0 40px 0;
 margin-left: auto;
 margin-right: auto;
+
+background-color:#E8C66A;
+border: 1px black solid;
+}
+
+aside {
+	background-color: border: #FFC675;
+	border: 1px black solid;
 }
 
 div{
-
+background-color: #FFE2B8;
+border: 1px black solid;
 }
 
-section{
-
+section {
+background-color: #FFE2B8;
+border:1px black solid;
 }
 
+article {
+background-color:#E89C6C;
+border: 1px black solid;
+}
 footer{
-
+background-color: #FF957E;
+border: 1px black solid;
 }
 
 h1 {
@@ -38,11 +55,10 @@ h1 {
 	font-weight: 400;
 	text-transform: uppercase;
 	text-align: center;	
-	padding-top: 20px;
+
 }
 
 h2 {
-
 }
 
 h3 {
@@ -58,22 +74,18 @@ p {
 
 }
 
-ul{
-
-}
 
 a{
 text-decoration: none;
 }
 
-hr{
+hr {
 
 }
 
-img{
-width:350px;
+img {
+	width:350px;
 }
-
 .navlinks {
 	margin: 10px;
 	color: black;
@@ -87,7 +99,7 @@ width:350px;
 
 .post {
 	width: 350px;
-	background-color:white;
+	background-color: white;
 	margin:20px;
 }
 
@@ -97,9 +109,28 @@ width:350px;
 
 }
  
- #hero {
+
+ #one {
+ 
+ }
+
+ #left {
 
  }
+
+#center {
+
+}
+
+#right {
+
+}
+
+#left {
+
+}
+
+#wrapper {}
 #slogan {
 	color: black;
 }
