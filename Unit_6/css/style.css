@@ -116,7 +116,11 @@ img {
  }
 
  #left {
-
+	background-color: #E582A2;
+	border:1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
  }
 
 #center {
@@ -124,12 +128,27 @@ img {
 }
 
 #right {
-
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%
 }
 
-#left {
-
+#two_column {
+	background-color: #FFB7C7;
+	border: 1px black solid;
+	padding: 20px;
 }
+
+.clearfix:after {
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+	content: ' ';
+	display: block;
+	clear: both;
+ }
 
 #wrapper {}
 #slogan {

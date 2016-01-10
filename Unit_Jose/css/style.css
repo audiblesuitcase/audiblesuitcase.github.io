@@ -3,62 +3,68 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 @import url(https://fonts.googleapis.com/css?family=Allan:400,700);
 
+* {
+	
+}
+
 body {
 	background-color: white;
 	margin: 0;
+	font-size: 16px;
 	}
 
 title {
 }
 
 header {
-	background-color: #FFED74;
-	border:1px black solid;
 }
 
 nav {
 width: 484px;
-margin: 20px 0 40px 0;
+margin: 20px auto 15px;
 margin-left: auto;
 margin-right: auto;
-
-background-color:#E8C66A;
-border: 1px black solid;
 }
 
 aside {
-	background-color: border: #FFC675;
-	border: 1px black solid;
 }
 
 div{
-background-color: #FFE2B8;
-border: 1px black solid;
+
 }
 
 section {
-background-color: #FFE2B8;
-border:1px black solid;
+
 }
 
 article {
-background-color:#E89C6C;
-border: 1px black solid;
+	width: 350px;
+	background-color: white;
+	margin:20px;
+	height: 620px;
+	float:left;
+
 }
+
 footer{
-background-color: #FF957E;
-border: 1px black solid;
+
 }
 
 h1 {
 	font-family: 'Allan', cursive;
-	font-weight: 400;
+	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;	
+	padding-top: 20px;
+	font-size: 2em;
 
 }
 
 h2 {
+	width: 350px;
+	background-color: white;
+	margin:15px 0;
+	font-size: 1.5em
 }
 
 h3 {
@@ -76,7 +82,7 @@ p {
 
 
 a{
-text-decoration: none;
+	
 }
 
 hr {
@@ -86,6 +92,16 @@ hr {
 img {
 	width:350px;
 }
+
+.clearfix:after {
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+	content: ' ';
+	display: block;
+	clear: both;
+ }
+
 .navlinks {
 	margin: 10px;
 	color: black;
@@ -95,19 +111,21 @@ img {
 	padding: 8px;
 	background-color: pink;
 	text-align: center;
+	text-decoration: none;
 }
 
-.post {
-	width: 350px;
+.navlinks:hover {
 	background-color: white;
-	margin:20px;
-	float:left;
+}
+
+#post-wrap {
+	width: 1200px;
+	margin:auto;
 }
 
 .posttitle {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 900;
-
 }
  
 
@@ -127,11 +145,11 @@ img {
 
 }
 
-#left {
 
+#wrapper {
+	
 }
 
-#wrapper {}
 #slogan {
 	color: black;
 }
