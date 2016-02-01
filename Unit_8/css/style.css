@@ -20,10 +20,9 @@ header {
 }
 
 nav {
-width: 484px;
-margin: 20px auto 15px;
-margin-left: auto;
-margin-right: auto;
+width: 100%;
+margin: 2.5% auto 2%;
+text-align:center;
 }
 
 aside {
@@ -38,10 +37,11 @@ section {
 }
 
 article {
-	width: 350px;
+	width: 30%;
 	background-color: white;
-	margin:20px;
-	height: 620px;
+	margin:1%;
+	padding-left: 3%;
+	height: 35em;
 	float:left;
 
 }
@@ -55,15 +55,15 @@ h1 {
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;	
-	padding-top: 20px;
+	padding-top: 1%;
 	font-size: 2em;
 
 }
 
 h2 {
-	width: 350px;
+	width: 100%;
 	background-color: white;
-	margin:15px 0;
+	margin:3% 0;
 	font-size: 1.5em
 }
 
@@ -90,7 +90,7 @@ hr {
 }
 
 img {
-	width:350px;
+	width:100%;
 }
 
 .clearfix:after {
@@ -103,12 +103,12 @@ img {
  }
 
 .navlinks {
-	margin: 10px;
+	margin: 1%;
 	color: black;
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
-	letter-spacing: 2px;
-	padding: 8px;
+	letter-spacing: .125em;
+	padding: .8%;
 	background-color: pink;
 	text-align: center;
 	text-decoration: none;
@@ -118,9 +118,10 @@ img {
 	background-color: white;
 }
 
-#post-wrap {
-	width: 1200px;
+.post-wrap {
+	width: 100%;
 	margin:auto;
+	
 }
 
 .posttitle {
@@ -135,6 +136,10 @@ img {
 
  #left {
 
+	border:.0625em black solid;
+	padding: 2%;
+	float: left;
+	width: 30%;
  }
 
 #center {
@@ -142,6 +147,20 @@ img {
 }
 
 #right {
+	
+	border: .0625em black solid;
+	padding: 2%;
+	float: right;
+	width: 62%
+
+ }
+
+#two_column	{
+
+
+	border: .0625em black solid;
+	padding: 2%;
+}
 
 }
 
@@ -153,3 +172,30 @@ img {
 #slogan {
 	color: black;
 }
+
+@media only screen and (max-width:786px) {
+ article {
+ 	width: 47%
+ }
+}
+
+@media only screen and (max-width:600px) {
+ article {
+ 	width: 95%;
+ 	float: none;
+ 	margin: 4% 0;
+ 	height: 10%;
+ }
+
+@media only screen and (max-width:413px) {
+ .navlinks {
+ 	margin: 1%;
+	letter-spacing: .0625em;
+	padding: 1%;
+	}
+}
+
+
+
+
+

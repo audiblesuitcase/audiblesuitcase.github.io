@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(https://fonts.googleapis.com/css?family=Allan:400,700);
+
+body {
+	background-color: white;
+	margin: 0;
+
+	}
+
+title {
+}
+
+header {
+	background-color: #FFED74;
+	border:1px black solid;
+}
+
+nav {
+width: 484px;
+margin: 20px 0 40px 0;
+margin-left: auto;
+margin-right: auto;
+
+background-color:#E8C66A;
+border: 1px black solid;
+}
+
+aside {
+	background-color: border: #FFC675;
+	border: 1px black solid;
+}
+
+div{
+background-color: #FFE2B8;
+border: 1px black solid;
+}
+
+section {
+background-color: #FFE2B8;
+border:1px black solid;
+}
+
+article {
+	width: 350px;
+	background-color: white;
+	margin:20px;
+	height: 620px;
+	float:left;
+background-color:#E89C6C;
+border: 1px black solid;
+}
+footer{
+background-color: #FF957E;
+border: 1px black solid;
+}
+
+h1 {
+	font-family: 'Allan', cursive;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;	
+
+}
+
+h2 {
+}
+
+h3 {
+	
+}
+
+p {
+	color:black;
+	font-family: 'Noto Serif', serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height:1.5em;
+
+}
+
+
+a{
+text-decoration: none;
+}
+
+hr {
+
+}
+
+img {
+	width:350px;
+}
+.navlinks {
+	margin: 10px;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 8px;
+	background-color: pink;
+	text-align: center;
+}
+
+.posttitle {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+
+}
+ 
+
+ #one {
+ 
+ }
+
+ #left {
+	background-color: #E582A2;
+	border:1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+ }
+
+#center {
+
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%
+}
+
+#two_column {
+	background-color: #FFB7C7;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.clearfix:after {
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+	content: ' ';
+	display: block;
+	clear: both;
+ }
+
+#post-wrap {
+	width: 1200px;
+	margin:auto;
+}
+
+#wrapper {}
+#slogan {
+	color: black;
+}
