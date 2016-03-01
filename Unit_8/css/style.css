@@ -36,15 +36,6 @@ section {
 
 }
 
-article {
-	width: 30%;
-	background-color: white;
-	margin:1%;
-	padding-left: 3%;
-	height: 35em;
-	float:left;
-
-}
 
 footer{
 
@@ -102,9 +93,19 @@ img {
 	clear: both;
  }
 
+.as
+{
+	width: 30%;
+	background-color: white;
+	margin:1%;
+	
+	height: 39em;
+	float:left;
+}
+
 .navlinks {
 	margin: 1%;
-	color: black;
+	color: white;
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: .125em;
@@ -116,23 +117,23 @@ img {
 
 .navlinks:hover {
 	background-color: white;
+	color: pink;
 }
 
-.post-wrap {
-	width: 100%;
-	margin:auto;
-	
-}
 
 .posttitle {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 900;
+	font-weight: 700;
+	margin: 4% 0
 }
  
+ #post-wrap {
+	width: 90%;
+	margin-left: 7%;
+	
+}
 
- #one {
- 
- }
+
 
  #left {
 
@@ -174,13 +175,13 @@ img {
 }
 
 @media only screen and (max-width:786px) {
- article {
+ .as {
  	width: 47%
  }
 }
 
 @media only screen and (max-width:600px) {
- article {
+ .as {
  	width: 95%;
  	float: none;
  	margin: 4% 0;
